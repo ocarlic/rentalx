@@ -1,0 +1,15 @@
+{
+  "name": "rentalx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ocarlic/rentalx.git",
+  "author": "Victor Carli <victorcarlibr@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "typescript": "^4.7.4"
+  }
+}
