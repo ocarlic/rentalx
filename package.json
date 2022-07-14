@@ -5,6 +5,9 @@
   "repository": "git@github.com:ocarlic/rentalx.git",
   "author": "Victor Carli <victorcarlibr@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+  },
   "dependencies": {
     "express": "^4.18.1"
   },
@@ -20,6 +23,7 @@
     "eslint-plugin-import-helpers": "^1.2.1",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^4.7.4"
   }
 }
